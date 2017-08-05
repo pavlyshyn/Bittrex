@@ -1,5 +1,5 @@
 {
-    "name": "ypho/bittrex",
+    "name": "pavlyshyn/bittrex",
     "homepage": "http://www.ypho.nl",
     "keywords": ["cryptocurrency","bittrex","bitcoins"],
     "description": "API Wrapper for the Bittrex cryptocurrency exchange",
@@ -10,12 +10,12 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^5.6",
         "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
-            "Ypho\\Bittrex\\": "src",
+            "Pavlyshyn\\Bittrex\\": "src",
             "Tests\\": "tests"
         }
     }
