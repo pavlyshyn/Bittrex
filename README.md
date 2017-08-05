@@ -10,11 +10,11 @@ Usage
 ======
 Install this package using:
 
-    composer require ypho/bittrex
+    composer require pavlyshyn/bittrex
 
 Create an instance of the bittrex object, and call one of the available methods.
 
-	use Ypho\Bittrex\Client;
+	use Pavlyshyn\Bittrex\Client;
 
 	$key = 'here-comes-the-api-key-from-bittrex';
 	$secret = 'this-is-the-api-secret-from-bittrex';
