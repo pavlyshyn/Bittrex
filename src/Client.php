@@ -301,12 +301,12 @@ class Client
         $result = curl_exec($ch);
 
         // Get the response and return the result, or throw an error
-        $response = json_decode($result);
+        $response = json_decode($result, true);
 
-        if ($response->success == false) {
-            throw new \Exception ($response->message);
+        if ($response['success'] == false) {
+            throw new \Exception ($response['message']);
         }
 
-        return $response->result;
+        return $response['result'];
     }
 }
