@@ -1,6 +1,6 @@
 <?php
 
-namespace Ypho\Bittrex;
+namespace Pavlyshyn\Bittrex;
 
 class Client
 {
